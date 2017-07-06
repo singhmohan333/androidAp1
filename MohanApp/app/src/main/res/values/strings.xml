@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MohanApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_my_app">Welcome My App!</string>
+</resources>
