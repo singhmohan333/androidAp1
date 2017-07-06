@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         RelativeLayout myLayout =   new RelativeLayout(this);
 
         Button myButton = new Button(this);
- 
+
 
 
         myLayout.setBackgroundColor(Color.GREEN);
