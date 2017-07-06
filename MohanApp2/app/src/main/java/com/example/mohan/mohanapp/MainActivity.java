@@ -7,8 +7,8 @@ import android.widget.RelativeLayout;
 import android.widget.Button;
 import android.graphics.Color;
 import android.widget.EditText;
-
-
+import android.content.res.Resources;
+import android.util.TypedValue;
 public class MainActivity extends Activity {
 
     @Override
@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         RelativeLayout myLayout =   new RelativeLayout(this);
 
         Button myButton = new Button(this);
-
+ 
 
 
         myLayout.setBackgroundColor(Color.GREEN);
@@ -51,6 +51,16 @@ public class MainActivity extends Activity {
 
         usernameDetails.addRule(RelativeLayout.ABOVE, myButton.getId());
         usernameDetails.addRule(RelativeLayout.CENTER_HORIZONTAL);
+
+
+        Resources r= getResources();
+        int px = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,200,r.getDisplayMetrics());
+        username.setWidth(px);
+
+
+
+
+
 
         usernameDetails.setMargins(0,0,0,50);
         myLayout.addView(username, usernameDetails);
