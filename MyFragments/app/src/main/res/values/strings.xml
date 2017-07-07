@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFragments</string>
+    <string name="myButton">Click Here</string>
+</resources>
