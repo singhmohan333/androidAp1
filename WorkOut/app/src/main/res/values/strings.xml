@@ -3,4 +3,12 @@
     <string name="action_settings">Settings</string>
     <string name="my_button">my button</string>
     <string name="hello_mohan">hello mohan</string>
+
+    <string-array name="workoutitem">
+        <item>Chest</item>
+        <item>shoulder</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>none</item>
+    </string-array>
 </resources>

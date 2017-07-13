@@ -14,28 +14,37 @@
         android:layout_height="wrap_content"
 
 
-        android:layout_marginTop="35dp"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/colorAccent"
+        android:entries="@array/workoutitem" />
 
     <TextView
-          android:id="@+id/textView"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/hello_mohan"
-          android:layout_below="@+id/findworkout"
-        />
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/hello_mohan"
+        android:textSize="30sp"
+        android:layout_below="@+id/findworkout"
+        android:layout_centerHorizontal="true" />
 
 
     <Button
 
+        android:id="@+id/findworkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/findworkout"
-        android:text="@string/my_button"
 
+        android:background="@android:color/holo_green_light"
+        android:onClick="onClickWork"
+        android:text="@string/my_button"
+        tools:ignore="RelativeOverlap,RtlHardcoded"
+        android:layout_marginTop="134dp"
         android:layout_below="@+id/spinner"
-        android:layout_alignLeft="@+id/spinner"
-        tools:ignore="RtlHardcoded" />
+        android:layout_centerHorizontal="true" />
 
 
 
