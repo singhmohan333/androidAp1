@@ -12,7 +12,11 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class WorkOutActivity extends AppCompatActivity {
+
+    private WorkoutExpert expert = new WorkoutExpert();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +33,16 @@ public class WorkOutActivity extends AppCompatActivity {
 
       String workoutput = String.valueOf(workoutss.getSelectedItem());
 
-      workouts.setText(workoutput);
+//      workouts.setText(workoutput);
+
+      List <String> workoutList = expert.getWorkouts(workoutput);
+      StringBuilder workoutFormatted = new StringBuilder();
+
+      for (String work : workoutList) {
+          workoutFormatted.append(work).append('\n');
+      }
+
+      workouts.setText(workoutFormatted);
 
   }
 
