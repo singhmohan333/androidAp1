@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
                 "Damson ","Date","Dragonfruit","Durian","Elderberry ","Feijoa ", "Cherry", "Fig", "Goji berry", "Gooseberry"
         };
 
-        ListAdapter myAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list);
+        ListAdapter myAdapter = new CustomAdapter(this, list);
         ListView myListView = (ListView) findViewById(R.id.myListView);
         myListView.setAdapter(myAdapter);
 
