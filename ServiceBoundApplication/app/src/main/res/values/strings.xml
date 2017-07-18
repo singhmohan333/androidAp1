@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ServiceBoundApplication</string>
+    <string name="button">myButton</string>
+    <string name="textview">TextView</string>
+</resources>

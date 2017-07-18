@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mohan.intentapplication">
+    package="com.example.mohan.listapplication">
 
     <application
         android:allowBackup="true"
@@ -9,26 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activitytwo"
-            android:label="@string/title_activity_activitytwo"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <service android:name=".MyIntentService" />
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true"></service>
     </application>
 
 </manifest>
