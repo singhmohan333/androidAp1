@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myStyle">
+        <item name="android:background">#009966</item>
+    </style>
+
+
+
+
+    <style name="myStyle2">
+        <item name="android:background">#fa3207</item>
+
+    </style>
+
+
+
+
+
+</resources>
