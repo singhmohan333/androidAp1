@@ -15,4 +15,6 @@
     <string name="displayW">DISPLAY</string>
     <string name="myText">TextView</string>
     <string name="hhhhhb" />
+    <string name="tex">TextView</string>
+    <string name="mytext">myText</string>
 </resources>

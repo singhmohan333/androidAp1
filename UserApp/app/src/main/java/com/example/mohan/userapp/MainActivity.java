@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
     public void displayInfo(View view){
 
         SharedPreferences sharedpref = getSharedPreferences("userinfo", Context.MODE_PRIVATE);
-            String name = sharedpref.getString("username", "");
-            String pw = sharedpref.getString("password", "");
+            String name = sharedpref.getString("username", " ");
+            String pw = sharedpref.getString("password", " ");
 
         myText.setText(name + "  " + pw);
 
