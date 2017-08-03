@@ -10,8 +10,10 @@ public class WorkoutExpert {
     {
         List <String> workout = new ArrayList<String>();
 
-        if (spinner.equals("chest"))
+        if (spinner.equals("Chest"))
         {
+            workout.add("bench Press");
+            workout.add("cable flys");
             workout.add("bench Press");
             workout.add("cable flys");
         }
@@ -20,18 +22,29 @@ public class WorkoutExpert {
         {
             workout.add("Tricept expert");
             workout.add("Tricept Pushdown");
+            workout.add("bench Press");
+            workout.add("cable flys");
+
         }
 
-        else if (spinner.equals("shoulder"))
+        else if (spinner.equals("Shoulder"))
 
         {
             workout.add("Shoulder press");
+            workout.add("bench Press");
+            workout.add("cable flys");
+            workout.add("bench Press");
+            workout.add("cable flys");
         }
 
         else if (spinner.equals("Biceps"))
 
         {
             workout.add("Biceps curls ");
+            workout.add("bench Press");
+            workout.add("cable flys");
+            workout.add("bench Press");
+            workout.add("cable flys");
 
         }
 

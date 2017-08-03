@@ -25,7 +25,7 @@ public class WorkOutActivity extends AppCompatActivity {
 
     }
 
-  public void onClickWork (View view){
+  public void imageVi (View view){
 
       TextView workouts = (TextView) findViewById(R.id.textView);
 

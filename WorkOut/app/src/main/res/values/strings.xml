@@ -6,9 +6,25 @@
 
     <string-array name="workoutitem">
         <item>Chest</item>
-        <item>shoulder</item>
+        <item>Shoulder</item>
         <item>Biceps</item>
         <item>Triceps</item>
         <item>none</item>
+        <item>Chest</item>
+        <item>Shoulder</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>none</item>
+        <item>Chest</item>
+        <item>Shoulder</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>none</item>
+        <item>Chest</item>
+        <item>Shoulder</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>none</item>
+
     </string-array>
 </resources>
