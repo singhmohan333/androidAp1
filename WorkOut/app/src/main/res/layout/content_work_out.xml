@@ -14,49 +14,41 @@
         android:layout_height="wrap_content"
 
 
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="54dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
         android:background="@color/colorAccent"
         android:entries="@array/workoutitem"
-        android:onClick="imageVi" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="45dp"
         android:background="@android:color/darker_gray"
         android:text="@string/hello_mohan"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:layout_below="@+id/findworkout"
+        android:layout_centerHorizontal="true" />
 
 
+    <Button
 
-    <!--<Button-->
-
-        <!--android:id="@+id/findworkout"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:background="@android:color/holo_green_light"-->
-        <!--android:onClick="onClickWork"-->
-        <!--android:text="@string/my_button"-->
-        <!--tools:ignore="RelativeOverlap,RtlHardcoded"-->
-        <!--android:layout_marginTop="28dp"-->
-        <!--android:layout_below="@+id/spinner"-->
-        <!--android:layout_centerHorizontal="true" />-->
-
-    <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/findworkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription=""
-        app:srcCompat="@drawable/a"
-        tools:ignore="ContentDescription"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="24dp" />
+
+        android:background="@android:color/holo_green_light"
+        android:onClick="onClickWork"
+        android:text="@string/my_button"
+        tools:ignore="RelativeOverlap,RtlHardcoded"
+        android:layout_marginTop="123dp"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+
 
 
 </RelativeLayout>

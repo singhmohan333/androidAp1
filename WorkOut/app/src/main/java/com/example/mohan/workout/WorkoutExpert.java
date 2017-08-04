@@ -10,7 +10,7 @@ public class WorkoutExpert {
     {
         List <String> workout = new ArrayList<String>();
 
-        if (spinner.equals("Chest"))
+        if (spinner.equals("chest"))
         {
             workout.add("bench Press");
             workout.add("cable flys");
@@ -27,13 +27,12 @@ public class WorkoutExpert {
 
         }
 
-        else if (spinner.equals("Shoulder"))
+        else if (spinner.equals("shoulder"))
 
         {
             workout.add("Shoulder press");
             workout.add("bench Press");
             workout.add("cable flys");
-            workout.add("bench Press");
             workout.add("cable flys");
         }
 
@@ -43,7 +42,6 @@ public class WorkoutExpert {
             workout.add("Biceps curls ");
             workout.add("bench Press");
             workout.add("cable flys");
-            workout.add("bench Press");
             workout.add("cable flys");
 
         }
@@ -51,7 +49,7 @@ public class WorkoutExpert {
         else if (spinner.equals("none"))
 
         {
-            workout.add("go to home ");
+            workout.add("go to home and take rest");
 
         }
 
