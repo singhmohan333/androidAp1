@@ -1,4 +1,4 @@
-package com.example.mohan.notificationapp;
+package com.example.as.notificationapp;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -12,6 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.as.notificationapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

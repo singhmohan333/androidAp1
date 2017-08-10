@@ -18,41 +18,30 @@ public class WorkoutExpert {
             workout.add("cable flys");
         }
         else if (spinner.equals("Triceps"))
-
         {
             workout.add("Tricept expert");
             workout.add("Tricept Pushdown");
             workout.add("bench Press");
             workout.add("cable flys");
-
         }
-
         else if (spinner.equals("shoulder"))
-
         {
             workout.add("Shoulder press");
             workout.add("bench Press");
             workout.add("cable flys");
             workout.add("cable flys");
         }
-
         else if (spinner.equals("Biceps"))
-
         {
             workout.add("Biceps curls ");
             workout.add("bench Press");
             workout.add("cable flys");
             workout.add("cable flys");
-
         }
-
         else if (spinner.equals("none"))
-
         {
             workout.add("go to home and take rest");
-
         }
-
         return workout ;
     }
 }

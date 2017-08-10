@@ -12,8 +12,6 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:background="@color/colorAccent"
@@ -39,7 +37,6 @@
         android:id="@+id/findworkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:background="@android:color/holo_green_light"
         android:onClick="onClickWork"
         android:text="@string/my_button"

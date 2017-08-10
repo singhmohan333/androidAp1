@@ -1,4 +1,4 @@
-package com.example.mohan.myapp;
+package com.example.as.myapp;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
