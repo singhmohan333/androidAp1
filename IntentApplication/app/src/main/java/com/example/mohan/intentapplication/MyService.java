@@ -29,13 +29,9 @@ public class MyService extends Service {
                             try{
                                 wait(futuretime-System.currentTimeMillis());
                                 Log.i(TAG, " service is running");
-
-
                             }catch (Exception e) { }
                         }
                     }
-
-
                 }
             }
         };
@@ -43,9 +39,7 @@ public class MyService extends Service {
         Thread myThread = new Thread(r);
         myThread.start();
         return Service.START_STICKY;
-
     }
-
     @Override
     public void onDestroy() {
         Log.i(TAG,"this is called on destroy");
