@@ -11,24 +11,40 @@
         android:name="com.example.mohan.myfragments.TopSection"
         android:layout_width="334dp"
         android:layout_height="96dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:layout="@layout/top_section"
-        tools:ignore="MissingConstraints"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/top_section"
+        tools:layout_editor_absoluteY="16dp" />
 
     <fragment
         android:id="@+id/fragment2"
         android:name="com.example.mohan.myfragments.BottonSection"
-        android:layout_width="336dp"
-        android:layout_height="351dp"
-        tools:ignore="MissingConstraints"
-        tools:layout="@layout/bottom_section"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781"
+        android:layout_width="174dp"
+        android:layout_height="182dp"
         android:layout_marginLeft="24dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="24dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        android:layout_marginTop="312dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/bottom_section" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.mohan.myfragments.Main2Activity"
+        android:layout_width="174dp"
+        android:layout_height="182dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="120dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout="@layout/activity_main2" />
+
+
 </android.support.constraint.ConstraintLayout>
